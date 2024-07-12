@@ -52,6 +52,8 @@
         </div>
       </body>
     </html>
+	<script type="module" src="forester.js"></script>
+	<script src="reload.js"></script>
   </xsl:template>
 
   <xsl:template name="numbered-taxon">

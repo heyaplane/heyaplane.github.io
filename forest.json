@@ -1,1 +1,1 @@
-{"hello":{"title":"Hello, World!","taxon":null,"tags":[],"route":"index.xml","metas":{}}}
+{"austinlane":{"title":"Austin Lane","taxon":"Person","tags":[],"route":"austinlane.xml","metas":{}},"hello":{"title":"Hello, World!","taxon":null,"tags":[],"route":"index.xml","metas":{}},"test":{"title":"Test","taxon":null,"tags":[],"route":"test.xml","metas":{}}}
