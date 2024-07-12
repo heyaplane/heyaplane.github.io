@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>180</fr:anchor><fr:addr>hello</fr:addr><fr:route>index.xml</fr:route><fr:title>Hello, World!</fr:title><fr:authors><fr:author><fr:link
+root="true"><fr:frontmatter><fr:anchor>183</fr:anchor><fr:addr>hello</fr:addr><fr:route>index.xml</fr:route><fr:title>Hello, World!</fr:title><fr:authors><fr:author><fr:link
 href="austinlane.xml"
 type="local"
 addr="austinlane">Austin Lane</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -24,12 +24,15 @@ type="external">Creating new trees</fr:link></fr:li>
     <fr:li><fr:link
 href="http://www.jonmsterling.com/jms-007K.xml"
 type="external">Creating your personal biographical tree</fr:link></fr:li></fr:ul>
-	Hello sailor!
-</fr:p><fr:tree
+	Hello <fr:link
+href="hey-0001.xml"
+type="local"
+addr="hey-0001">sailor</fr:link>!
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
-numbered="true"
+numbered="false"
 show-heading="true"
-show-metadata="false"
+show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>176</fr:anchor><fr:addr>test</fr:addr><fr:route>test.xml</fr:route><fr:title>Test</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Test</fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>182</fr:anchor><fr:addr>hey-0001</fr:addr><fr:route>hey-0001.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
