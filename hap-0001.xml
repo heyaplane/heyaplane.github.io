@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>177</fr:anchor><fr:addr>hap-0001</fr:addr><fr:route>hap-0001.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>13</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>176</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>heyaplane</fr:addr><fr:route>heyaplane.xml</fr:route><fr:title>Heyaplane</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Hobbyist/game dev.</fr:p><fr:p>Really interested in large-scale simulations and emergent game mechanics.</fr:p><fr:p>Checkout the <fr:link
+href="hap-0001.xml"
+type="local"
+addr="hap-0001">devlog</fr:link> or other <fr:link
+href="hap-0002.xml"
+type="local"
+addr="hap-0002">projects</fr:link> I'm currently working on.</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
