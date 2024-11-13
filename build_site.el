@@ -17,7 +17,7 @@
        (list "site"
             :recursive t
             :base-directory "./content"
-            :publishing-directory "./public"
+            :publishing-directory "./docs"
             :publishing-function 'org-html-publish-to-html
             :with-author nil
             :with-creator t
@@ -28,7 +28,7 @@
        (list "sb_files"
             :base-directory "../sb"
             :base-extension "none"
-            :publishing-directory "./public"
+            :publishing-directory "./docs"
             :publishing-function 'org-html-publish-to-html
             :with-author nil
             :with-creator t
