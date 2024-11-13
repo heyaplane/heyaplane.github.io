@@ -20,27 +20,27 @@
 </div>
 <div id="content" class="content">
 <h1 class="title">Org To Website</h1>
-<div class="intro" id="org7e62728">
+<div class="intro" id="orgf5de3e1">
 <p>
 Source: <a href="https://www.youtube.com/watch?v=AfkrzFodoNw">https://www.youtube.com/watch?v=AfkrzFodoNw</a>
 </p>
 
 </div>
 
-<div id="outline-container-orge2cb4fd" class="outline-2">
-<h2 id="orge2cb4fd">Folder structure</h2>
-<div class="outline-text-2" id="text-orge2cb4fd">
+<div id="outline-container-org04e8ba7" class="outline-2">
+<h2 id="org04e8ba7">Folder structure</h2>
+<div class="outline-text-2" id="text-org04e8ba7">
 </div>
-<div id="outline-container-org49ddaac" class="outline-3">
-<h3 id="org49ddaac">Site folder</h3>
-<div class="outline-text-3" id="text-org49ddaac">
+<div id="outline-container-orgc07f5b7" class="outline-3">
+<h3 id="orgc07f5b7">Site folder</h3>
+<div class="outline-text-3" id="text-orgc07f5b7">
 <p>
 build_site.el
 </p>
 </div>
-<div id="outline-container-org52618df" class="outline-4">
-<h4 id="org52618df">Content</h4>
-<div class="outline-text-4" id="text-org52618df">
+<div id="outline-container-org269a0d6" class="outline-4">
+<h4 id="org269a0d6">Content</h4>
+<div class="outline-text-4" id="text-org269a0d6">
 <p>
 index.org (landing page)
 </p>
@@ -49,9 +49,9 @@ index.org (landing page)
 </div>
 </div>
 
-<div id="outline-container-orgd92f3fd" class="outline-2">
-<h2 id="orgd92f3fd">Step 1: Create build script</h2>
-<div class="outline-text-2" id="text-orgd92f3fd">
+<div id="outline-container-org2667e26" class="outline-2">
+<h2 id="org2667e26">Step 1: Create build script</h2>
+<div class="outline-text-2" id="text-org2667e26">
 <p>
 Create file build_site.el
 </p>
@@ -65,9 +65,9 @@ Create file build_site.el
 </div>
 </div>
 
-<div id="outline-container-org68f3551" class="outline-2">
-<h2 id="org68f3551">Step 2: Create shell script</h2>
-<div class="outline-text-2" id="text-org68f3551">
+<div id="outline-container-org5ed97b8" class="outline-2">
+<h2 id="org5ed97b8">Step 2: Create shell script</h2>
+<div class="outline-text-2" id="text-org5ed97b8">
 <p>
 Create file build.sh
 </p>
@@ -83,9 +83,9 @@ Run 'chmod +x build.sh' to make it executable.
 </p>
 </div>
 </div>
-<div id="outline-container-org3e70896" class="outline-2">
-<h2 id="org3e70896">Step 3: Add publishing project config</h2>
-<div class="outline-text-2" id="text-org3e70896">
+<div id="outline-container-orgf30a46b" class="outline-2">
+<h2 id="orgf30a46b">Step 3: Add publishing project config</h2>
+<div class="outline-text-2" id="text-orgf30a46b">
 <p>
 Add to build_site.el file:
 </p>
@@ -117,9 +117,9 @@ Running build.sh at this point will generate a 'public' folder with the nely gen
 </div>
 </div>
 
-<div id="outline-container-orgfc51a5b" class="outline-2">
-<h2 id="orgfc51a5b">Step 4: Preview site (optional)</h2>
-<div class="outline-text-2" id="text-orgfc51a5b">
+<div id="outline-container-orge3ea30e" class="outline-2">
+<h2 id="orge3ea30e">Step 4: Preview site (optional)</h2>
+<div class="outline-text-2" id="text-orge3ea30e">
 <p>
 Copy 'simple-httpd.el' file from github.
 </p>
@@ -138,9 +138,9 @@ Run: 'M-x httpd-serve-directory', choose the 'public' folder, then navigate to '
 </p>
 </div>
 </div>
-<div id="outline-container-org4dc3438" class="outline-2">
-<h2 id="org4dc3438">Step 5: Improve HTML output</h2>
-<div class="outline-text-2" id="text-org4dc3438">
+<div id="outline-container-orged8e5ce" class="outline-2">
+<h2 id="orged8e5ce">Step 5: Improve HTML output</h2>
+<div class="outline-text-2" id="text-orged8e5ce">
 <p>
 Add following to build_site.el:
 </p>
@@ -161,9 +161,9 @@ Use 'M-h v org-publish-project-alist' to see a list of :with options.
 </div>
 </div>
 
-<div id="outline-container-orga1c233e" class="outline-2">
-<h2 id="orga1c233e">Step 6: Improve styling</h2>
-<div class="outline-text-2" id="text-orga1c233e">
+<div id="outline-container-org0830d8e" class="outline-2">
+<h2 id="org0830d8e">Step 6: Improve styling</h2>
+<div class="outline-text-2" id="text-org0830d8e">
 <p>
 Add following to  build_site.el:
 </p>
@@ -180,9 +180,9 @@ Note that the 'rethink.css' file should be sitting in the 'public' folder with t
 </div>
 </div>
 
-<div id="outline-container-org2676c2b" class="outline-2">
-<h2 id="org2676c2b">Step 7: Add html preamble</h2>
-<div class="outline-text-2" id="text-org2676c2b">
+<div id="outline-container-org74d62ff" class="outline-2">
+<h2 id="org74d62ff">Step 7: Add html preamble</h2>
+<div class="outline-text-2" id="text-org74d62ff">
 <p>
 Add following to build_site.el:
 </p>
@@ -200,9 +200,9 @@ Add following to build_site.el:
 </div>
 </div>
 
-<div id="outline-container-org11452d2" class="outline-2">
-<h2 id="org11452d2">Step 8: Link to other files</h2>
-<div class="outline-text-2" id="text-org11452d2">
+<div id="outline-container-org2770936" class="outline-2">
+<h2 id="org2770936">Step 8: Link to other files</h2>
+<div class="outline-text-2" id="text-org2770936">
 <p>
 This was a difficult problem to solve, since I wanted to keep most of my org files in a separate folder. I ended up creating a separate "dummy" project that only includes the files I specify in a list:
 </p>
@@ -230,9 +230,9 @@ Unfortunately, links between files need to made manually, since links will break
 </div>
 </div>
 
-<div id="outline-container-org19a9814" class="outline-2">
-<h2 id="org19a9814">Step 9: Better code blocks support</h2>
-<div class="outline-text-2" id="text-org19a9814">
+<div id="outline-container-orgb8bfe4e" class="outline-2">
+<h2 id="orgb8bfe4e">Step 9: Better code blocks support</h2>
+<div class="outline-text-2" id="text-orgb8bfe4e">
 <p>
 Insert this at the top of build_site.el:
 </p>
@@ -252,14 +252,14 @@ Insert this at the top of build_site.el:
 </div>
 </div>
 
-<div id="outline-container-orgac84335" class="outline-3">
-<h3 id="orgac84335"><span class="todo TODO">TODO</span> Fix bug where line breaks can disrupt syntax highlighting</h3>
+<div id="outline-container-org5d0de9b" class="outline-3">
+<h3 id="org5d0de9b"><span class="todo TODO">TODO</span> Fix bug where line breaks can disrupt syntax highlighting</h3>
 </div>
 </div>
 
-<div id="outline-container-org7001077" class="outline-2">
-<h2 id="org7001077">Final build script</h2>
-<div class="outline-text-2" id="text-org7001077">
+<div id="outline-container-org14feee6" class="outline-2">
+<h2 id="org14feee6">Final build script</h2>
+<div class="outline-text-2" id="text-org14feee6">
 <div class="org-src-container">
 <pre class="src src-elisp">(<span class="org-keyword">require</span> '<span class="org-constant">package</span>)
 (<span class="org-keyword">setq</span> package-user-dir (expand-file-name <span class="org-string">"./.packages"</span>))
@@ -327,9 +327,9 @@ Insert this at the top of build_site.el:
 </div>
 </div>
 
-<div id="outline-container-orgb7fcc73" class="outline-2">
-<h2 id="orgb7fcc73">Tips</h2>
-<div class="outline-text-2" id="text-orgb7fcc73">
+<div id="outline-container-org26a68f7" class="outline-2">
+<h2 id="org26a68f7">Tips</h2>
+<div class="outline-text-2" id="text-org26a68f7">
 <p>
 You can prevent org publish from automatically converting underscores to subscript html elements by inserting the following into any publishable org file:
 </p>

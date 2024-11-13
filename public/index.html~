@@ -44,7 +44,7 @@
 <br />
 <span class="subtitle">Org mode meets professional web design</span>
 </h1>
-<div class="intro" id="org83dc0ff">
+<div class="intro" id="org063ff85">
 <p>
 This is example text.
 </p>
@@ -57,9 +57,9 @@ This is more example text.
 </div>
 
 
-<div id="outline-container-orga64de1d" class="outline-2">
-<h2 id="orga64de1d">Welcome to Rethink.</h2>
-<div class="outline-text-2" id="text-orga64de1d">
+<div id="outline-container-org549d0b6" class="outline-2">
+<h2 id="org549d0b6">Welcome to Rethink.</h2>
+<div class="outline-text-2" id="text-org549d0b6">
 <p>
 Test <a href="org_to_website.html">link</a>
 </p>
@@ -79,17 +79,17 @@ Rethink is available on Github <a href="https://github.com/jessekelly881/Theme-R
 </div>
 </div>
 
-<div id="outline-container-orgdff45b9" class="outline-3">
-<h3 id="orgdff45b9">Learn more</h3>
-<div class="outline-text-3" id="text-orgdff45b9">
+<div id="outline-container-org45eead3" class="outline-3">
+<h3 id="org45eead3">Learn more</h3>
+<div class="outline-text-3" id="text-org45eead3">
 <p>
 To learn more about Rethink and what I do feel free to check out my <a href="https://www.jessekelly.tk">Blog</a> or my <a href="https://www.github.com/jessekelly881">Github</a>
 </p>
 </div>
 
-<div id="outline-container-orgc7b6c7f" class="outline-4">
-<h4 id="orgc7b6c7f">And Learn even more!</h4>
-<div class="outline-text-4" id="text-orgc7b6c7f">
+<div id="outline-container-org4c6463b" class="outline-4">
+<h4 id="org4c6463b">And Learn even more!</h4>
+<div class="outline-text-4" id="text-org4c6463b">
 <p>
 Keep on learning!
 </p>
@@ -98,13 +98,13 @@ Keep on learning!
 </div>
 </div>
 
-<div id="outline-container-org53de6cd" class="outline-2">
-<h2 id="org53de6cd">Rethink supports&#x2026;</h2>
-<div class="outline-text-2" id="text-org53de6cd">
+<div id="outline-container-org05ef749" class="outline-2">
+<h2 id="org05ef749">Rethink supports&#x2026;</h2>
+<div class="outline-text-2" id="text-org05ef749">
 </div>
-<div id="outline-container-org08d344d" class="outline-3">
-<h3 id="org08d344d">Ordered lists</h3>
-<div class="outline-text-3" id="text-org08d344d">
+<div id="outline-container-org80e8906" class="outline-3">
+<h3 id="org80e8906">Ordered lists</h3>
+<div class="outline-text-3" id="text-org80e8906">
 <ol class="org-ol">
 <li>A</li>
 <li>B</li>
@@ -113,9 +113,9 @@ Keep on learning!
 </div>
 </div>
 
-<div id="outline-container-orgba51e60" class="outline-3">
-<h3 id="orgba51e60">Unordered lists</h3>
-<div class="outline-text-3" id="text-orgba51e60">
+<div id="outline-container-org96b0529" class="outline-3">
+<h3 id="org96b0529">Unordered lists</h3>
+<div class="outline-text-3" id="text-org96b0529">
 <ul class="org-ul">
 <li>A</li>
 <li>B</li>
@@ -124,9 +124,9 @@ Keep on learning!
 </div>
 </div>
 
-<div id="outline-container-org15a9a07" class="outline-3">
-<h3 id="org15a9a07">Links</h3>
-<div class="outline-text-3" id="text-org15a9a07">
+<div id="outline-container-orgad9b508" class="outline-3">
+<h3 id="orgad9b508">Links</h3>
+<div class="outline-text-3" id="text-orgad9b508">
 <p>
 <a href="https://www.jessekelly.tk">jessekelly.tk</a>
 </p>
@@ -134,11 +134,11 @@ Keep on learning!
 </div>
 
 
-<div id="outline-container-orgac041be" class="outline-3">
-<h3 id="orgac041be">Images(Which are responsive!)</h3>
-<div class="outline-text-3" id="text-orgac041be">
+<div id="outline-container-orgf45febe" class="outline-3">
+<h3 id="orgf45febe">Images(Which are responsive!)</h3>
+<div class="outline-text-3" id="text-orgf45febe">
 
-<div id="org08e3208" class="figure">
+<div id="orgb2930b9" class="figure">
 <p><img src="https://www.snapoye.com/ArtShop/wp-content/uploads/2019/03/cari1.jpeg" alt="cari1.jpeg" />
 </p>
 </div>
@@ -146,9 +146,9 @@ Keep on learning!
 </div>
 
 
-<div id="outline-container-org9448b46" class="outline-3">
-<h3 id="org9448b46">Tables(Which are responsive!)</h3>
-<div class="outline-text-3" id="text-org9448b46">
+<div id="outline-container-orgc03f58d" class="outline-3">
+<h3 id="orgc03f58d">Tables(Which are responsive!)</h3>
+<div class="outline-text-3" id="text-orgc03f58d">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -225,18 +225,18 @@ Keep on learning!
 </div>
 </div>
 
-<div id="outline-container-org5b89414" class="outline-3">
-<h3 id="org5b89414">Latex</h3>
-<div class="outline-text-3" id="text-org5b89414">
+<div id="outline-container-org5361548" class="outline-3">
+<h3 id="org5361548">Latex</h3>
+<div class="outline-text-3" id="text-org5361548">
 <p>
 \[\int_{a}^{b} x^2 dx\]
 </p>
 </div>
 </div>
 
-<div id="outline-container-org2402144" class="outline-3">
-<h3 id="org2402144">Code</h3>
-<div class="outline-text-3" id="text-org2402144">
+<div id="outline-container-org1c49646" class="outline-3">
+<h3 id="org1c49646">Code</h3>
+<div class="outline-text-3" id="text-org1c49646">
 <div class="org-src-container">
 <pre class="src src-python"><span class="org-keyword">def</span> <span class="org-function-name">fact</span>(n):
     <span class="org-doc">"Returns the factorial of a number"</span>
@@ -249,9 +249,9 @@ Keep on learning!
 </div>
 </div>
 
-<div id="outline-container-org875938b" class="outline-3">
-<h3 id="org875938b">Quotes</h3>
-<div class="outline-text-3" id="text-org875938b">
+<div id="outline-container-org01ff716" class="outline-3">
+<h3 id="org01ff716">Quotes</h3>
+<div class="outline-text-3" id="text-org01ff716">
 <blockquote>
 <p>
 Insanity: doing the same thing over and over again and expecting different results.
@@ -264,9 +264,9 @@ Albert Einstein
 </div>
 </div>
 
-<div id="outline-container-org6868ce9" class="outline-3">
-<h3 id="org6868ce9">Checkboxes</h3>
-<div class="outline-text-3" id="text-org6868ce9">
+<div id="outline-container-org7cd608c" class="outline-3">
+<h3 id="org7cd608c">Checkboxes</h3>
+<div class="outline-text-3" id="text-org7cd608c">
 <ul class="org-ul">
 <li class="on"><code>[X]</code> Checked</li>
 <li class="off"><code>[&#xa0;]</code> Unchecked</li>
@@ -274,18 +274,18 @@ Albert Einstein
 </div>
 </div>
 
-<div id="outline-container-org154e629" class="outline-3">
-<h3 id="org154e629"><span class="todo TODO">TODO</span> An item that needs done</h3>
+<div id="outline-container-org282de09" class="outline-3">
+<h3 id="org282de09"><span class="todo TODO">TODO</span> An item that needs done</h3>
 </div>
-<div id="outline-container-orgcbf11fa" class="outline-3">
-<h3 id="orgcbf11fa"><span class="done DONE">DONE</span> An item that is done</h3>
+<div id="outline-container-org84214f0" class="outline-3">
+<h3 id="org84214f0"><span class="done DONE">DONE</span> An item that is done</h3>
 </div>
-<div id="outline-container-org403ffc4" class="outline-3">
-<h3 id="org403ffc4">Tags&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tag1">tag1</span>&#xa0;<span class="tag2">tag2</span></span></h3>
+<div id="outline-container-orgff6392e" class="outline-3">
+<h3 id="orgff6392e">Tags&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tag1">tag1</span>&#xa0;<span class="tag2">tag2</span></span></h3>
 </div>
-<div id="outline-container-org1d4b136" class="outline-3">
-<h3 id="org1d4b136">Font styling</h3>
-<div class="outline-text-3" id="text-org1d4b136">
+<div id="outline-container-org9e96e4a" class="outline-3">
+<h3 id="org9e96e4a">Font styling</h3>
+<div class="outline-text-3" id="text-org9e96e4a">
 <p>
 <b>Bold</b> <i>italic</i> <span class="underline">underlined</span> <code>verbatim</code> <code>code</code> <del>strike-through</del>
 </p>
@@ -293,13 +293,13 @@ Albert Einstein
 </div>
 </div>
 
-<div id="outline-container-org08adc37" class="outline-2">
-<h2 id="org08adc37">Example Text</h2>
-<div class="outline-text-2" id="text-org08adc37">
+<div id="outline-container-orgffd3bdc" class="outline-2">
+<h2 id="orgffd3bdc">Example Text</h2>
+<div class="outline-text-2" id="text-orgffd3bdc">
 </div>
-<div id="outline-container-orgb4576a8" class="outline-3">
-<h3 id="orgb4576a8">Example 1</h3>
-<div class="outline-text-3" id="text-orgb4576a8">
+<div id="outline-container-orge85a299" class="outline-3">
+<h3 id="orge85a299">Example 1</h3>
+<div class="outline-text-3" id="text-orge85a299">
 <p>
 Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
 </p>
@@ -307,9 +307,9 @@ Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis 
 </div>
 
 
-<div id="outline-container-org3e238d0" class="outline-3">
-<h3 id="org3e238d0">Example 2</h3>
-<div class="outline-text-3" id="text-org3e238d0">
+<div id="outline-container-orgeee74fb" class="outline-3">
+<h3 id="orgeee74fb">Example 2</h3>
+<div class="outline-text-3" id="text-orgeee74fb">
 <p>
 Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
 </p>
