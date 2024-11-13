@@ -20,27 +20,27 @@
 </div>
 <div id="content" class="content">
 <h1 class="title">Org To Website</h1>
-<div class="intro" id="org7c8bb28">
+<div class="intro" id="org9604446">
 <p>
 Source: <a href="https://www.youtube.com/watch?v=AfkrzFodoNw">https://www.youtube.com/watch?v=AfkrzFodoNw</a>
 </p>
 
 </div>
 
-<div id="outline-container-org0732b14" class="outline-2">
-<h2 id="org0732b14">Folder structure</h2>
-<div class="outline-text-2" id="text-org0732b14">
+<div id="outline-container-org589f7cd" class="outline-2">
+<h2 id="org589f7cd">Folder structure</h2>
+<div class="outline-text-2" id="text-org589f7cd">
 </div>
-<div id="outline-container-org9d08b23" class="outline-3">
-<h3 id="org9d08b23">Site folder</h3>
-<div class="outline-text-3" id="text-org9d08b23">
+<div id="outline-container-org629fce6" class="outline-3">
+<h3 id="org629fce6">Site folder</h3>
+<div class="outline-text-3" id="text-org629fce6">
 <p>
 build_site.el
 </p>
 </div>
-<div id="outline-container-org9b317d6" class="outline-4">
-<h4 id="org9b317d6">Content</h4>
-<div class="outline-text-4" id="text-org9b317d6">
+<div id="outline-container-org213af0f" class="outline-4">
+<h4 id="org213af0f">Content</h4>
+<div class="outline-text-4" id="text-org213af0f">
 <p>
 index.org (landing page)
 </p>
@@ -49,31 +49,31 @@ index.org (landing page)
 </div>
 </div>
 
-<div id="outline-container-orgf7cef73" class="outline-2">
-<h2 id="orgf7cef73">Step 1: Create build script</h2>
-<div class="outline-text-2" id="text-orgf7cef73">
+<div id="outline-container-org4be9f0a" class="outline-2">
+<h2 id="org4be9f0a">Step 1: Create build script</h2>
+<div class="outline-text-2" id="text-org4be9f0a">
 <p>
 Create file build_site.el
 </p>
 
 <div class="org-src-container">
-<pre class="src src-elisp">(require 'ox-publish)
+<pre class="src src-elisp">(<span class="org-keyword">require</span> '<span class="org-constant">ox-publish</span>)
 
-(message "Build complete!")
+(message <span class="org-string">"Build complete!"</span>)
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org891d427" class="outline-2">
-<h2 id="org891d427">Step 2: Create shell script</h2>
-<div class="outline-text-2" id="text-org891d427">
+<div id="outline-container-org4ef639c" class="outline-2">
+<h2 id="org4ef639c">Step 2: Create shell script</h2>
+<div class="outline-text-2" id="text-org4ef639c">
 <p>
 Create file build.sh
 </p>
 
 <div class="org-src-container">
-<pre class="src src-sh">#!/bin/sh
+<pre class="src src-sh"><span class="org-comment-delimiter">#</span><span class="org-comment">!/bin/</span><span class="org-keyword">sh</span>
 emacs -Q --script build_site.el
 </pre>
 </div>
@@ -83,20 +83,20 @@ Run 'chmod +x build.sh' to make it executable.
 </p>
 </div>
 </div>
-<div id="outline-container-org51ed34d" class="outline-2">
-<h2 id="org51ed34d">Step 3: Add publishing project config</h2>
-<div class="outline-text-2" id="text-org51ed34d">
+<div id="outline-container-orge4ece23" class="outline-2">
+<h2 id="orge4ece23">Step 3: Add publishing project config</h2>
+<div class="outline-text-2" id="text-orge4ece23">
 <p>
 Add to build_site.el file:
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp">(setq org-publish-project-alist
+<pre class="src src-elisp">(<span class="org-keyword">setq</span> org-publish-project-alist
       (list
-       (list "my_site"
-	    :recursive t
-	    :base-directory "./content"
-	    :publishing-directory "./public"
-	    :publishing-function 'org-html-publish-to-html)))
+       (list <span class="org-string">"my_site"</span>
+            <span class="org-builtin">:recursive</span> t
+            <span class="org-builtin">:base-directory</span> <span class="org-string">"./content"</span>
+            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./public"</span>
+            <span class="org-builtin">:publishing-function</span> 'org-html-publish-to-html)))
 
 (org-publish-all t)
 </pre>
@@ -117,9 +117,9 @@ Running build.sh at this point will generate a 'public' folder with the nely gen
 </div>
 </div>
 
-<div id="outline-container-org24d11be" class="outline-2">
-<h2 id="org24d11be">Step 4: Preview site (optional)</h2>
-<div class="outline-text-2" id="text-org24d11be">
+<div id="outline-container-orgc0504f7" class="outline-2">
+<h2 id="orgc0504f7">Step 4: Preview site (optional)</h2>
+<div class="outline-text-2" id="text-orgc0504f7">
 <p>
 Copy 'simple-httpd.el' file from github.
 </p>
@@ -129,7 +129,7 @@ Install 'simple-httpd' package with:
 </p>
 <div class="org-src-container">
 <pre class="src src-elisp">(use-package simple-httpd
-  :ensure t)
+  <span class="org-builtin">:ensure</span> t)
 </pre>
 </div>
 
@@ -138,20 +138,20 @@ Run: 'M-x httpd-serve-directory', choose the 'public' folder, then navigate to '
 </p>
 </div>
 </div>
-<div id="outline-container-org4f4d994" class="outline-2">
-<h2 id="org4f4d994">Step 5: Improve HTML output</h2>
-<div class="outline-text-2" id="text-org4f4d994">
+<div id="outline-container-org42470a5" class="outline-2">
+<h2 id="org42470a5">Step 5: Improve HTML output</h2>
+<div class="outline-text-2" id="text-org42470a5">
 <p>
 Add following to build_site.el:
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp">:with-author nil
-:with-creator t
-:with-toc t
-:section-numbers nil
-:time-stamp-file nil
+<pre class="src src-elisp"><span class="org-builtin">:with-author</span> nil
+<span class="org-builtin">:with-creator</span> t
+<span class="org-builtin">:with-toc</span> t
+<span class="org-builtin">:section-numbers</span> nil
+<span class="org-builtin">:time-stamp-file</span> nil
 
-(setq org-html-validation-link nil)
+(<span class="org-keyword">setq</span> org-html-validation-link nil)
 </pre>
 </div>
 
@@ -161,16 +161,16 @@ Use 'M-h v org-publish-project-alist' to see a list of :with options.
 </div>
 </div>
 
-<div id="outline-container-orgdf7e59d" class="outline-2">
-<h2 id="orgdf7e59d">Step 6: Improve styling</h2>
-<div class="outline-text-2" id="text-orgdf7e59d">
+<div id="outline-container-orgee7049b" class="outline-2">
+<h2 id="orgee7049b">Step 6: Improve styling</h2>
+<div class="outline-text-2" id="text-orgee7049b">
 <p>
 Add following to  build_site.el:
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp">(setq org-html-head-include-scripts nil
+<pre class="src src-elisp">(<span class="org-keyword">setq</span> org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      org-html-head "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"rethink.css\" /&gt;")
+      org-html-head <span class="org-string">"&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"rethink.css\" /&gt;"</span>)
 </pre>
 </div>
 
@@ -180,46 +180,46 @@ Note that the 'rethink.css' file should be sitting in the 'public' folder with t
 </div>
 </div>
 
-<div id="outline-container-org89e8a47" class="outline-2">
-<h2 id="org89e8a47">Step 7: Add html preamble</h2>
-<div class="outline-text-2" id="text-org89e8a47">
+<div id="outline-container-orgf895507" class="outline-2">
+<h2 id="orgf895507">Step 7: Add html preamble</h2>
+<div class="outline-text-2" id="text-orgf895507">
 <p>
 Add following to build_site.el:
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp">(setq org-html-preamble
-      "&lt;nav id=navbar&gt;
-	&lt;ul&gt;
-	 &lt;li&gt;&lt;a href=\"index.html\"&gt;Home&lt;/a&gt;&lt;/li&gt;
-	 &lt;li&gt;&lt;a href=\"index.html\"&gt;About&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-       &lt;/nav&gt;"
+<pre class="src src-elisp">(<span class="org-keyword">setq</span> org-html-preamble
+      <span class="org-string">"&lt;nav id=navbar&gt;</span>
+<span class="org-string">        &lt;ul&gt;</span>
+<span class="org-string">         &lt;li&gt;&lt;a href=\"index.html\"&gt;Home&lt;/a&gt;&lt;/li&gt;</span>
+<span class="org-string">         &lt;li&gt;&lt;a href=\"index.html\"&gt;About&lt;/a&gt;&lt;/li&gt;</span>
+<span class="org-string">        &lt;/ul&gt;</span>
+<span class="org-string">       &lt;/nav&gt;"</span>
       )
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org8927495" class="outline-2">
-<h2 id="org8927495">Step 8: Link to other files</h2>
-<div class="outline-text-2" id="text-org8927495">
+<div id="outline-container-orga60338a" class="outline-2">
+<h2 id="orga60338a">Step 8: Link to other files</h2>
+<div class="outline-text-2" id="text-orga60338a">
 <p>
 This was a difficult problem to solve, since I wanted to keep most of my org files in a separate folder. I ended up creating a separate "dummy" project that only includes the files I specify in a list:
 </p>
 
 <div class="org-src-container">
-<pre class="src src-elisp">(list "sb_files"
-     :base-directory "../sb"
-     :base-extension "none"
-     :publishing-directory "./public"
-     :publishing-function 'org-html-publish-to-html
-     :with-author nil
-     :with-creator t
-     :with-toc nil
-     :section-numbers nil
-     :time-stamp-file nil
-     :include '(
-	       "org_to_website.org"
+<pre class="src src-elisp">(list <span class="org-string">"sb_files"</span>
+     <span class="org-builtin">:base-directory</span> <span class="org-string">"../sb"</span>
+     <span class="org-builtin">:base-extension</span> <span class="org-string">"none"</span>
+     <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./public"</span>
+     <span class="org-builtin">:publishing-function</span> 'org-html-publish-to-html
+     <span class="org-builtin">:with-author</span> nil
+     <span class="org-builtin">:with-creator</span> t
+     <span class="org-builtin">:with-toc</span> nil
+     <span class="org-builtin">:section-numbers</span> nil
+     <span class="org-builtin">:time-stamp-file</span> nil
+     <span class="org-builtin">:include</span> '(
+               <span class="org-string">"org_to_website.org"</span>
       ))
 </pre>
 </div>
@@ -230,111 +230,111 @@ Unfortunately, links between files need to made manually, since links will break
 </div>
 </div>
 
-<div id="outline-container-org75f3e7b" class="outline-2">
-<h2 id="org75f3e7b">Step 9: Better code blocks support</h2>
-<div class="outline-text-2" id="text-org75f3e7b">
+<div id="outline-container-orga74a9bf" class="outline-2">
+<h2 id="orga74a9bf">Step 9: Better code blocks support</h2>
+<div class="outline-text-2" id="text-orga74a9bf">
 <p>
 Insert this at the top of build_site.el:
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp">(require 'package)
-(setq package-user-dir (expand-file-name "./.packages"))
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			 ("elpa" . "https://elpa.gnu.org/packages/")))
+<pre class="src src-elisp">(<span class="org-keyword">require</span> '<span class="org-constant">package</span>)
+(<span class="org-keyword">setq</span> package-user-dir (expand-file-name <span class="org-string">"./.packages"</span>))
+(<span class="org-keyword">setq</span> package-archives '((<span class="org-string">"melpa"</span> . <span class="org-string">"https://melpa.org/packages/"</span>)
+                         (<span class="org-string">"elpa"</span> . <span class="org-string">"https://elpa.gnu.org/packages/"</span>)))
 
 (package-initialize)
-(unless package-archive-contents
+(<span class="org-keyword">unless</span> package-archive-contents
   (package-refresh-contents))
 
 (package-install 'htmlize)
-(setq org-html-htmlize-output-type 'css)
+(<span class="org-keyword">setq</span> org-html-htmlize-output-type 'css)
 </pre>
 </div>
 </div>
 
-<div id="outline-container-org695024e" class="outline-3">
-<h3 id="org695024e"><span class="todo TODO">TODO</span> Fix bug where line breaks can disrupt syntax highlighting</h3>
+<div id="outline-container-org3b06688" class="outline-3">
+<h3 id="org3b06688"><span class="todo TODO">TODO</span> Fix bug where line breaks can disrupt syntax highlighting</h3>
 </div>
 </div>
 
-<div id="outline-container-org871989a" class="outline-2">
-<h2 id="org871989a">Final build script</h2>
-<div class="outline-text-2" id="text-org871989a">
+<div id="outline-container-org8e75f32" class="outline-2">
+<h2 id="org8e75f32">Final build script</h2>
+<div class="outline-text-2" id="text-org8e75f32">
 <div class="org-src-container">
-<pre class="src src-elisp">(require 'package)
-(setq package-user-dir (expand-file-name "./.packages"))
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			 ("elpa" . "https://elpa.gnu.org/packages/")))
+<pre class="src src-elisp">(<span class="org-keyword">require</span> '<span class="org-constant">package</span>)
+(<span class="org-keyword">setq</span> package-user-dir (expand-file-name <span class="org-string">"./.packages"</span>))
+(<span class="org-keyword">setq</span> package-archives '((<span class="org-string">"melpa"</span> . <span class="org-string">"https://melpa.org/packages/"</span>)
+                         (<span class="org-string">"elpa"</span> . <span class="org-string">"https://elpa.gnu.org/packages/"</span>)))
 
 (package-initialize)
-(unless package-archive-contents
+(<span class="org-keyword">unless</span> package-archive-contents
   (package-refresh-contents))
 
 (package-install 'htmlize)
-(setq org-html-htmlize-output-type 'css)
+(<span class="org-keyword">setq</span> org-html-htmlize-output-type 'css)
 
-(require 'ox-publish)
+(<span class="org-keyword">require</span> '<span class="org-constant">ox-publish</span>)
 
-(setq org-publish-project-alist
+(<span class="org-keyword">setq</span> org-publish-project-alist
       (list
-       (list "site"
-	    :recursive t
-	    :base-directory "./content"
-	    :publishing-directory "./public"
-	    :publishing-function 'org-html-publish-to-html
-	    :with-author nil
-	    :with-creator t
-	    :with-toc nil
-	    :section-numbers nil
-	    :time-stamp-file nil
-	    )
-       (list "sb_files"
-	    :base-directory "../sb"
-	    :base-extension "none"
-	    :publishing-directory "./public"
-	    :publishing-function 'org-html-publish-to-html
-	    :with-author nil
-	    :with-creator t
-	    :with-toc nil
-	    :section-numbers nil
-	    :time-stamp-file nil
-	    :include '(
-		      "org_to_website.org"
-	     ))
-       (list "site_all"
-	    :components '("site" "sb_files")
-	     )))
+       (list <span class="org-string">"site"</span>
+            <span class="org-builtin">:recursive</span> t
+            <span class="org-builtin">:base-directory</span> <span class="org-string">"./content"</span>
+            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./public"</span>
+            <span class="org-builtin">:publishing-function</span> 'org-html-publish-to-html
+            <span class="org-builtin">:with-author</span> nil
+            <span class="org-builtin">:with-creator</span> t
+            <span class="org-builtin">:with-toc</span> nil
+            <span class="org-builtin">:section-numbers</span> nil
+            <span class="org-builtin">:time-stamp-file</span> nil
+            )
+       (list <span class="org-string">"sb_files"</span>
+            <span class="org-builtin">:base-directory</span> <span class="org-string">"../sb"</span>
+            <span class="org-builtin">:base-extension</span> <span class="org-string">"none"</span>
+            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./public"</span>
+            <span class="org-builtin">:publishing-function</span> 'org-html-publish-to-html
+            <span class="org-builtin">:with-author</span> nil
+            <span class="org-builtin">:with-creator</span> t
+            <span class="org-builtin">:with-toc</span> nil
+            <span class="org-builtin">:section-numbers</span> nil
+            <span class="org-builtin">:time-stamp-file</span> nil
+            <span class="org-builtin">:include</span> '(
+                      <span class="org-string">"org_to_website.org"</span>
+             ))
+       (list <span class="org-string">"site_all"</span>
+            <span class="org-builtin">:components</span> '(<span class="org-string">"site"</span> <span class="org-string">"sb_files"</span>)
+             )))
 
-(setq org-html-validation-link nil)
-(setq org-html-head-include-scripts nil
+(<span class="org-keyword">setq</span> org-html-validation-link nil)
+(<span class="org-keyword">setq</span> org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      org-html-head "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"rethink.css\" /&gt;"
+      org-html-head <span class="org-string">"&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"rethink.css\" /&gt;"</span>
       )
-(setq org-html-preamble
-      "&lt;nav id=navbar&gt;
-	&lt;ul&gt;
-	 &lt;li&gt;&lt;a href=\"index.html\"&gt;Home&lt;/a&gt;&lt;/li&gt;
-	 &lt;li&gt;&lt;a href=\"index.html\"&gt;About&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-       &lt;/nav&gt;"
+(<span class="org-keyword">setq</span> org-html-preamble
+      <span class="org-string">"&lt;nav id=navbar&gt;</span>
+<span class="org-string">        &lt;ul&gt;</span>
+<span class="org-string">         &lt;li&gt;&lt;a href=\"index.html\"&gt;Home&lt;/a&gt;&lt;/li&gt;</span>
+<span class="org-string">         &lt;li&gt;&lt;a href=\"index.html\"&gt;About&lt;/a&gt;&lt;/li&gt;</span>
+<span class="org-string">        &lt;/ul&gt;</span>
+<span class="org-string">       &lt;/nav&gt;"</span>
       )
 
 (org-publish-all t)
 
-(message "Build complete!")
+(message <span class="org-string">"Build complete!"</span>)
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org2b50a57" class="outline-2">
-<h2 id="org2b50a57">Tips</h2>
-<div class="outline-text-2" id="text-org2b50a57">
+<div id="outline-container-org094e363" class="outline-2">
+<h2 id="org094e363">Tips</h2>
+<div class="outline-text-2" id="text-org094e363">
 <p>
 You can prevent org publish from automatically converting underscores to subscript html elements by inserting the following into any publishable org file:
 </p>
 <div class="org-src-container">
-<pre class="src src-org">#+OPTIONS: ^:{}
+<pre class="src src-org"><span class="org-org-meta-line">#+OPTIONS: ^:{}</span>
 </pre>
 </div>
 
@@ -342,9 +342,9 @@ You can prevent org publish from automatically converting underscores to subscri
 You can create custom classes in your org files that can be referenced by css:
 </p>
 <div class="org-src-container">
-<pre class="src src-org">#+BEGIN_intro
+<pre class="src src-org"><span class="org-org-block-begin-line">#+BEGIN_intro</span>
 This is example text.
-#+END_intro
+<span class="org-org-block-end-line">#+END_intro</span>
 </pre>
 </div>
 
@@ -352,8 +352,8 @@ This is example text.
 Reference this class in a css file:
 </p>
 <div class="org-src-container">
-<pre class="src src-css">.intro {
-margin: 0;
+<pre class="src src-css"><span class="org-css-selector">.intro </span>{
+<span class="org-css-property">margin</span>: 0;
 }
 </pre>
 </div>
