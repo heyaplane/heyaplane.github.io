@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rethink</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="rethink.css" />
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+<nav id=navbar>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="index.html">About</a></li>
+        </ul>
+       </nav>
+</div>
+<div id="content" class="content">
+<h1 class="title">Rethink
+<br />
+<span class="subtitle">Org mode meets professional web design</span>
+</h1>
+<div class="intro" id="org83dc0ff">
+<p>
+This is example text.
+</p>
+
+
+<p>
+This is more example text.
+</p>
+
+</div>
+
+
+<div id="outline-container-orga64de1d" class="outline-2">
+<h2 id="orga64de1d">Welcome to Rethink.</h2>
+<div class="outline-text-2" id="text-orga64de1d">
+<p>
+Test <a href="org_to_website.html">link</a>
+</p>
+
+<p>
+Rethink is a css theme targeted at org mode. Rethink was inspired by its cousin <a href="https://jessekelly881-imagine.surge.sh/">Imagine</a> and HTML5 UP's theme <a href="https://html5up.net/story">Story</a>
+</p>
+
+<p>
+Rethink is available on Github <a href="https://github.com/jessekelly881/Theme-Rethink">here</a>. To use rethink add the following headers to your org document:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org"><span class="org-org-meta-line">#+HTML_HEAD: &lt;link rel="stylesheet" type="text/css" href="rethink.css" /&gt;</span>
+<span class="org-org-meta-line">#+OPTIONS: toc:nil num:nil html-style:nil</span>
+</pre>
+</div>
+</div>
+
+<div id="outline-container-orgdff45b9" class="outline-3">
+<h3 id="orgdff45b9">Learn more</h3>
+<div class="outline-text-3" id="text-orgdff45b9">
+<p>
+To learn more about Rethink and what I do feel free to check out my <a href="https://www.jessekelly.tk">Blog</a> or my <a href="https://www.github.com/jessekelly881">Github</a>
+</p>
+</div>
+
+<div id="outline-container-orgc7b6c7f" class="outline-4">
+<h4 id="orgc7b6c7f">And Learn even more!</h4>
+<div class="outline-text-4" id="text-orgc7b6c7f">
+<p>
+Keep on learning!
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org53de6cd" class="outline-2">
+<h2 id="org53de6cd">Rethink supports&#x2026;</h2>
+<div class="outline-text-2" id="text-org53de6cd">
+</div>
+<div id="outline-container-org08d344d" class="outline-3">
+<h3 id="org08d344d">Ordered lists</h3>
+<div class="outline-text-3" id="text-org08d344d">
+<ol class="org-ol">
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgba51e60" class="outline-3">
+<h3 id="orgba51e60">Unordered lists</h3>
+<div class="outline-text-3" id="text-orgba51e60">
+<ul class="org-ul">
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org15a9a07" class="outline-3">
+<h3 id="org15a9a07">Links</h3>
+<div class="outline-text-3" id="text-org15a9a07">
+<p>
+<a href="https://www.jessekelly.tk">jessekelly.tk</a>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgac041be" class="outline-3">
+<h3 id="orgac041be">Images(Which are responsive!)</h3>
+<div class="outline-text-3" id="text-orgac041be">
+
+<div id="org08e3208" class="figure">
+<p><img src="https://www.snapoye.com/ArtShop/wp-content/uploads/2019/03/cari1.jpeg" alt="cari1.jpeg" />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org9448b46" class="outline-3">
+<h3 id="org9448b46">Tables(Which are responsive!)</h3>
+<div class="outline-text-3" id="text-org9448b46">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">N</th>
+<th scope="col" class="org-right">N<sup>2</sup></th>
+<th scope="col" class="org-right">N<sup>3</sup></th>
+<th scope="col" class="org-right">N<sup>4</sup></th>
+<th scope="col" class="org-right">sqrt(n)</th>
+<th scope="col" class="org-right">sqrt[4](N)</th>
+<th scope="col" class="org-right">Sum</th>
+<th scope="col" class="org-right">Doubled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">6</td>
+<td class="org-right">12</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">4</td>
+<td class="org-right">8</td>
+<td class="org-right">16</td>
+<td class="org-right">1.4142</td>
+<td class="org-right">1.1892</td>
+<td class="org-right">32.6034</td>
+<td class="org-right">65.2068</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">9</td>
+<td class="org-right">27</td>
+<td class="org-right">81</td>
+<td class="org-right">1.7321</td>
+<td class="org-right">1.3161</td>
+<td class="org-right">123.0482</td>
+<td class="org-right">246.0964</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org5b89414" class="outline-3">
+<h3 id="org5b89414">Latex</h3>
+<div class="outline-text-3" id="text-org5b89414">
+<p>
+\[\int_{a}^{b} x^2 dx\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2402144" class="outline-3">
+<h3 id="org2402144">Code</h3>
+<div class="outline-text-3" id="text-org2402144">
+<div class="org-src-container">
+<pre class="src src-python"><span class="org-keyword">def</span> <span class="org-function-name">fact</span>(n):
+    <span class="org-doc">"Returns the factorial of a number"</span>
+    <span class="org-keyword">if</span>(n &lt;= 1): <span class="org-keyword">return</span> 1
+    <span class="org-keyword">else</span>: <span class="org-keyword">return</span> n*fact(n-1)
+
+<span class="org-builtin">print</span>(fact(3))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org875938b" class="outline-3">
+<h3 id="org875938b">Quotes</h3>
+<div class="outline-text-3" id="text-org875938b">
+<blockquote>
+<p>
+Insanity: doing the same thing over and over again and expecting different results.
+</p>
+
+<p>
+Albert Einstein
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org6868ce9" class="outline-3">
+<h3 id="org6868ce9">Checkboxes</h3>
+<div class="outline-text-3" id="text-org6868ce9">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Checked</li>
+<li class="off"><code>[&#xa0;]</code> Unchecked</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org154e629" class="outline-3">
+<h3 id="org154e629"><span class="todo TODO">TODO</span> An item that needs done</h3>
+</div>
+<div id="outline-container-orgcbf11fa" class="outline-3">
+<h3 id="orgcbf11fa"><span class="done DONE">DONE</span> An item that is done</h3>
+</div>
+<div id="outline-container-org403ffc4" class="outline-3">
+<h3 id="org403ffc4">Tags&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tag1">tag1</span>&#xa0;<span class="tag2">tag2</span></span></h3>
+</div>
+<div id="outline-container-org1d4b136" class="outline-3">
+<h3 id="org1d4b136">Font styling</h3>
+<div class="outline-text-3" id="text-org1d4b136">
+<p>
+<b>Bold</b> <i>italic</i> <span class="underline">underlined</span> <code>verbatim</code> <code>code</code> <del>strike-through</del>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org08adc37" class="outline-2">
+<h2 id="org08adc37">Example Text</h2>
+<div class="outline-text-2" id="text-org08adc37">
+</div>
+<div id="outline-container-orgb4576a8" class="outline-3">
+<h3 id="orgb4576a8">Example 1</h3>
+<div class="outline-text-3" id="text-orgb4576a8">
+<p>
+Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org3e238d0" class="outline-3">
+<h3 id="org3e238d0">Example 2</h3>
+<div class="outline-text-3" id="text-org3e238d0">
+<p>
+Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.1 (<a href="https://orgmode.org">Org</a> mode 9.5.2)</p>
+</div>
+</body>
+</html>
